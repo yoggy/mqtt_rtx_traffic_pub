@@ -17,6 +17,8 @@ class RTXStatus
 		@port     = port
 		@password = password
 		@lan      = lan
+		@rx_kbps  = 0
+		@tx_kbps  = 0
 		#@debug    = true
 	end
 
