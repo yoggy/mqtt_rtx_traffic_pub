@@ -18,7 +18,7 @@ $ EDITOR=vi ./mqtt_rtx_traffic_pub.rb
 $ crontab -e
   
   #### append this line ####
-  */10 * * * *  ~/work/mqtt_rtx_traffic_pub/mqtt_rtx_traffic_pub.rb 2>&1 >/dev/null
+  */3 * * * *  ~/work/mqtt_rtx_traffic_pub/mqtt_rtx_traffic_pub.rb 2>&1 >/dev/null
 </pre>
 
 
